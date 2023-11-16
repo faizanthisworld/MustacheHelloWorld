@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.1/mustache.min.js"></script>
+    <script src="script.js" defer></script>
+    <title>Document</title>
+    <style>
+        .container {
+            max-width: 600px;
+            margin: 2rem auto;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        #ExternalTemplateEmployeeList .list {
+            margin: 1rem 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Mustache Hello World</h1>
+
+    <div class="container">
+        <h3>Single Employee Information</h3>
+        <div id="employeeInfo"></div>
+    </div>
+
+    <div class="container">
+        <h3>Employee List</h3>
+        <div id="employeeInfoList"></div>
+    </div>
+    <div class="container">
+        <h3>Single Employee Information from an external template</h3>
+        <div id="singleExternalTemplateEmployeeInfo"></div>
+    </div>
+
+    <div class="container">
+        <h3>Employee List Information from an external template</h3>
+        <div id="ExternalTemplateEmployeeList"></div>
+    </div>
+
+    
+</body>
+
+</html>

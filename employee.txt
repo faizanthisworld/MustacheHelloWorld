@@ -1,0 +1,14 @@
+<ul class="list">
+    <li>
+        <strong>Name : </strong>
+        {{name}}
+        </br>
+        <strong>Age : </strong>
+        {{age}}
+        </br>
+        <strong>Occupation : </strong>
+        {{occupation}}
+    </li>
+</ul>
+
+ 
